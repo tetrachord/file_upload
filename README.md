@@ -1,6 +1,6 @@
 # About
 
-This SpringBoot Application reads an uploaded file sen via a REST POST request.
+This SpringBoot Application reads an uploaded file sent via a REST POST request.
 
 The uploaded file is expected to have the format :
 
