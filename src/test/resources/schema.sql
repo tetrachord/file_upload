@@ -1,4 +1,4 @@
-CREATE TABLE IPREQUEST (
+CREATE TABLE IF NOT EXISTS IPREQUEST (
     requestid varchar(36) not null,
     requesturi varchar(255) not null,
     requesttimestamp timestamp not null,

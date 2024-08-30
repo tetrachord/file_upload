@@ -63,8 +63,8 @@ public class PersistenceJPAConfig {
 
         Properties properties = new Properties();
         properties.setProperty("spring.sql.init.mode", "always");
-        properties.setProperty("spring.jpa.hibernate.ddl-auto", "update");
-        properties.setProperty("spring.jpa.generate.ddl", "true");
+        properties.setProperty("spring.jpa.hibernate.ddl-auto", "none");
+        properties.setProperty("spring.jpa.generate.ddl", "false");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
         properties.setProperty("spring.jpa.defer-datasource-initialization", "true");
 
